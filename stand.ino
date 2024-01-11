@@ -16,29 +16,29 @@ void setPos(int servo,int angle) {
 }
 
 void stand(){
-    setPos(0, 95);
+    setPos(0, 75);
     delay(500);
-    setPos(4, 90);
+    setPos(4, 86);
     delay(500);
-    setPos(8, 140);
+    setPos(8, 180);
     delay(500); 
-    setPos(1, 85);
+    setPos(1, 92);
     delay(500);
-    setPos(5, 95);
+    setPos(5, 90);
     delay(500);
-    setPos(9, 165);
+    setPos(9, 137);
     delay(500); 
-    setPos(2, 80);
+    setPos(2, 85);
     delay(500);
-    setPos(6, 95);
+    setPos(6, 92);
     delay(500); 
-    setPos(10, 160);
+    setPos(10, 165);
     delay(500);
-    setPos(3, 75);
+    setPos(3, 80);
     delay(500);
     setPos(7, 85);
     delay(500); 
-    setPos(11, 167);
+    setPos(11, 150);
     delay(500);
     Serial.println("Stand up: complete");
 }
