@@ -211,6 +211,7 @@ void hardCode(){
   setPos(1, 110);
   setPos(3, 55);
 
+  // Back-Right follows
   delay(500);
   setPos(5, 70);
   setPos(7, 65);
@@ -226,41 +227,79 @@ void hardCode(){
   delay(500);
   setPos(3, 100);
   delay(500);
-  setPos(7, 120);
-  setPos(11, 130);
-  setPos(7, 80);
+  // setPos(7, 120);
+  // setPos(11, 130);
   setPos(11, 145);
+  setPos(7, 80);
   delay(500);
-  setPos(5, 90);
-  setPos(6, 92);
-
-  // Reset Yaw
-  setPos(0, 75);
-  setPos(1, 92);
-  setPos(2, 85);
-  setPos(3, 80);
-  delay(500);
-
-  // Front-Left 2nd time
   setPos(0, 90);
   delay(500);
   setPos(8, 160);
-  setPos(4, 100);
+  setPos(4, 120);
   delay(500);
-  setPos(0, 40);
-  setPos(4, 80);
   setPos(0, 75);
+  setPos(8, 120);
+  setPos(4, 60);
+  delay(500);
+  setPos(8, 150);
+  setPos(10, 150);
+  delay(500);
+  setPos(7, 120);
+  delay(500);
+  setPos(11, 90);
+  setPos(7, 40);
+  delay(500);
+  setPos(11, 120);
+  setPos(9, 107);
   delay(500);
 
-  //Front-Right 2nd time
-  setPos(7, 120);
-  setPos(11, 80);
-  setPos(3, 100);
-  delay(500);
-  setPos(11, 100);
-  setPos(7, 60);
-  setPos(3, 80);
-  delay(500);
+  setPos(0, 40);
+  setPos(8, 100);
+  // setPos(9, 117);
+  // setPos(5, 60);
+  // delay(500);
+  // setPos(8, 160);
+  // setPos(10, 160);
+  // delay(500);
+  // setPos(9, 95);
+  // setPos(10, 140);
+  // delay(500);
+  // setPos(7, 125);
+  // delay(500);
+  
+  // delay(500);
+  // setPos(7, 60);
+  // setPos(11, 60);
+  // setPos(5, 90);
+  // setPos(6, 92);
+
+  // // Reset Yaw
+  // setPos(0, 75);
+  // setPos(1, 92);
+  // setPos(2, 85);
+  // setPos(3, 80);
+  // delay(500);
+
+  // // Front-Left 2nd time
+  // setPos(0, 90);
+  // delay(500);
+  // setPos(8, 160);
+  // setPos(4, 100);
+  // delay(500);
+  // setPos(0, 40);
+  // setPos(4, 80);
+  // setPos(0, 75);
+  // delay(500);
+
+  // //Front-Right 2nd time
+  // setPos(7, 120);
+  // setPos(11, 80);
+  // setPos(3, 100);
+  // delay(500);
+  // setPos(11, 100);
+  // setPos(7, 60);
+  // setPos(3, 80);
+  // delay(500);
 
   // delay(500);
   // setPos(11, 145);
