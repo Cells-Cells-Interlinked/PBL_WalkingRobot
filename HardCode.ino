@@ -237,7 +237,7 @@ void hardCode(){
   setPos(8, 160);
   setPos(4, 120);
   delay(500);
-  setPos(0, 75);
+  setPos(0, 40);
   setPos(8, 120);
   setPos(4, 60);
   delay(500);
@@ -253,8 +253,24 @@ void hardCode(){
   setPos(9, 107);
   delay(500);
 
-  setPos(0, 40);
-  setPos(8, 100);
+  setPos(7, 75);
+  setPos(11, 140);
+  delay(500);
+  setPos(0, 75);
+  setPos(8, 165);
+  setPos(4, 125);
+  delay(500);
+  setPos(8, 130);
+  setPos(4, 60);
+  delay(500);
+  setPos(8, 170);
+  setPos(10, 125);
+  setPos(3, 60);
+
+  setPos(7, 60);
+  // setPos();
+
+  // setPos(10, 120);
   // setPos(9, 117);
   // setPos(5, 60);
   // delay(500);
