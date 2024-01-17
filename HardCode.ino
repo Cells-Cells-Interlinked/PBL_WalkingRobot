@@ -233,7 +233,42 @@ void hardCode(){
   delay(500);
   setPos(5, 90);
   setPos(6, 92);
-  setPos(11, 130);
+
+  // Reset Yaw
+  setPos(0, 75);
+  setPos(1, 92);
+  setPos(2, 85);
+  setPos(3, 80);
+  delay(500);
+
+  // Front-Left 2nd time
+  setPos(0, 90);
+  delay(500);
+  setPos(8, 160);
+  setPos(4, 100);
+  delay(500);
+  setPos(0, 40);
+  setPos(4, 80);
+  setPos(0, 75);
+  delay(500);
+
+  //Front-Right 2nd time
+  setPos(7, 120);
+  setPos(11, 80);
+  setPos(3, 100);
+  delay(500);
+  setPos(11, 100);
+  setPos(7, 60);
+  setPos(3, 80);
+  delay(500);
+
+  // delay(500);
+  // setPos(11, 145);
+  // setPos(7, 120);
+  // delay(500);
+  // setPos(11, 130);
+  // setPos(7, 80);
+
   // delay(500);
   // setPos(6, 120);
   // setPos(2, 105);
