@@ -4,11 +4,11 @@
 Adafruit_PWMServoDriver Ada = Adafruit_PWMServoDriver();
 
 //Ultrasonic1
-#define echo_1 8
-#define trig_1 9
+#define echo_1 8 //Left white
+#define trig_1 9 //Left purple
 //ultrasonic2
-#define echo_2 3
-#define trig_2 2
+#define echo_2 3 //Right brown
+#define trig_2 2 //Right white
 
 #define servoMAX 600
 #define servoMIN 150
@@ -109,13 +109,13 @@ void readUltrasonic(int num){
 }
 
 void leg_extend(){
-      if(distance_2 < 50){
+      if(distance_2 < 50 && distance_2 > 10){
         setPos(7,75);
         setPos(11,40);
         delay(5000);
         stand_instantly();
       }
-      else if(distance_1 < 50){
+      else if(distance_1 < 50 && distance_1 > 10){
         setPos(5,75);
         setPos(9,40);
         delay(5000);
@@ -131,18 +131,20 @@ void setup(){
   Serial.begin(9600);
   Ada.begin();
   Ada.setPWMFreq(60);
+  stand_instantly();
+  delay(6000);
 }
 
 void loop(){
   //ultrasonic_1
   usonic_transmit(1);
   readUltrasonic(1);
-  leg_extend();
+  //leg_extend();
   //ultrasonic_2
   usonic_transmit(2);
   readUltrasonic(2);
   leg_extend();
 
 
-  delay(300);
+  //delay(300);
 }
