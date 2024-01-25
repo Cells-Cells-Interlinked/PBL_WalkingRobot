@@ -241,7 +241,7 @@ void setup() {
   Ada.begin();
   Ada.setPWMFreq(60);
   stand_instanly();
-  compensate();
+  //compensate();
   delay(5000);
 }
 void walking(){
@@ -253,10 +253,10 @@ void walking(){
   // delay(700);
   // step4();
 }
-void compensate(){
-  setPos(11, 145);
-  setPos(10, 155);
-}
+// void compensate(){
+//   setPos(11, 145);
+//   setPos(10, 155);
+// }
 void creepwalk(){
   //prep
   setPos(2, 105);
@@ -267,7 +267,7 @@ void creepwalk(){
   delay(500);
   setPos(3,100);
   delay(500);
-  setPos(7, 65);
+  setPos(7, 85);
   delay(500);
   setPos(3, 80);
   setPos(0, 90);
@@ -279,14 +279,14 @@ void creepwalk(){
   delay(500);
   setPos(1 ,60);
   delay(500);
-  setPos(5, 75);
+  setPos(5, 90);
   delay(500);
   //walking leg1
   setPos(4, 135);
   delay(500);
   setPos(0, 40);
   delay(500);
-  setPos(4, 74);
+  setPos(4, 84);
   delay(500);
   setPos(0, 75);
   setPos(3, 60);
@@ -297,7 +297,7 @@ void creepwalk(){
   delay(500);
   setPos(2, 105);
   delay(500);
-  setPos(6, 65);
+  setPos(6, 85);
 }
 
 void loop() {
@@ -341,6 +341,11 @@ void loop() {
           // Code to handle invalid or unrecognized values of the first integer
           setPos(serNum, degVal);
           break;
+
+      }
+    }
+  }
+}
 
       }
     }
