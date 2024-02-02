@@ -139,7 +139,7 @@ void loop(){
   //ultrasonic_1
   usonic_transmit(1);
   readUltrasonic(1);
-  //leg_extend();
+  leg_extend();
   //ultrasonic_2
   usonic_transmit(2);
   readUltrasonic(2);
